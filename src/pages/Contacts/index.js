@@ -12,8 +12,8 @@ import DownloadExcell from "./DownloadExcell";
 import { connect } from "react-redux";
 import { getContacts } from "../../store/actions/contact";
 // userkey dan pass key
-var userkey = "xw2aj8";
-var passkey = "nfv6k1ydzo";
+var userkey = "USERKEY";
+var passkey = "PASSKEY";
 
 class Contact extends Component {
   constructor() {
