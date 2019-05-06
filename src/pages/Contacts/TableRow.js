@@ -15,7 +15,7 @@ class TableRow extends Component {
       cancelButtonColor: "#d33",
       confirmButtonText: "Yes, delete it!"
     }).then(result => {
-      if (result.value) {
+      if (result) {
         axios
           .delete(`contacts/${id}`)
           .then(res => {

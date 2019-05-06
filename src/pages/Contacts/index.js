@@ -126,6 +126,10 @@ class Contact extends Component {
                 : {expired} !!!
               </h5>
             </div>
+            <div className="alert alert-danger" role="alert">
+              NOTE : ketika sudah mengirim pesan anda tidak boleh menghapus data
+              nya
+            </div>
             <BreadCrumb secondText="Contact" />
             <Link
               style={{ margin: "5px" }}
